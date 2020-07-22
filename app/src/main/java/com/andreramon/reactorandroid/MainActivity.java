@@ -2,13 +2,10 @@ package com.andreramon.reactorandroid;
 
 import android.os.Bundle;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
-
 import java.time.Duration;
 import java.util.concurrent.Executor;
-
 import reactor.core.publisher.Flux;
 import reactor.core.scheduler.Schedulers;
 
